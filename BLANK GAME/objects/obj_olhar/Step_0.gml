@@ -1,4 +1,4 @@
- /// @description Inserir descrição aqui
+  /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
 if(global.pause==true){
@@ -65,7 +65,7 @@ cont++;
 
 if(distance_to_object(obj_player)<2){
 	
-	if(dono!=-1){dono.IA_modo="perseguindo";}; dono.contViu  = 0; instance_destroy();
+	if(dono!=-1)and(obj_player.distance_to_object(dono)<200){dono.IA_modo="perseguindo";}; dono.contViu  = 0; instance_destroy();
 	
 	}
 

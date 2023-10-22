@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "1 nivel",
-    "path": "folders/Sprites/Background/1 nivel.yy",
+    "path": "folders/Background/1 nivel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

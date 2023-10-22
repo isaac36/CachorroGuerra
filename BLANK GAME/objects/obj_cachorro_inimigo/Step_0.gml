@@ -1,7 +1,3 @@
-if(keyboard_check_pressed(vk_space)and(global.podedarpause)){global.pause=!global.pause};
-
-
-
 
 if(global.pause==true){
 	
@@ -67,7 +63,7 @@ if(keyboard_check(BOTAO_ESPECIAL_SETUP)){BOTAO_ESPECIAL = true;}else {BOTAO_ESPE
    
    
    
-   
+ depth = -y;
    
    
    
@@ -207,7 +203,31 @@ objetivo.mira = "nada";
 objetivo.x = x;
 objetivo.y = y;
 cont_parado=cont_parado+1;
+if((distance_to_object(obj_player))<70){IA_modo = "atirar"};
 if(cont_parado>100){IA_modo = "posicaoinicial";cont_parado=0;}
+
+}else
+
+if(IA_modo == "atirar"){
+	
+if(cont_atirar==0){
+var tiro = instance_create_depth(x,y,depth,obj_tiro); 
+tiro.dono = id;
+};
+
+sprite_index = sprite_parado;
+
+objetivo.mira = "nada";
+objetivo.x = x;
+objetivo.y = y;
+
+cont_atirar++;  
+
+if(cont_atirar>100){
+
+IA_modo = "procurando";cont_atirar=0;
+
+};
 
 }
  

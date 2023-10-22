@@ -24,10 +24,10 @@ if(comecou==true){
 
 draw_sprite_ext(spr_quadrado_branco,0,640,850,30,10,0,make_color_rgb(30,30,30),1);
 draw_set_color(c_white);
-draw_text_ext(640,570,fala[cont_dialogo],0,800);
+draw_text_ext(640,580,fala[cont_dialogo],0,800);
 
 if(pode_passar){
-draw_text_ext_color(640,670 + movimento_pendular/5,"PASSAR:(U)",0,500,c_red,c_red,c_white,c_white,1);
+draw_text_ext_color(640,670,"PASSAR:(ESPAÇO)",0,500,c_lime,c_lime,c_white,c_white,1);
 } 
 
 draw_sprite_ext(face[cont_dialogo],0,640+(-lado[cont_dialogo]*500),630,lado[cont_dialogo]*2,2,movimento_pendular,c_white,1);

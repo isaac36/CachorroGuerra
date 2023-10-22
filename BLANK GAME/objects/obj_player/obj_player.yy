@@ -5,6 +5,8 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -32,9 +34,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_quadrado_vermelho",
-    "path": "sprites/spr_quadrado_vermelho/spr_quadrado_vermelho.yy",
+    "name": "spr_doguinho",
+    "path": "sprites/spr_doguinho/spr_doguinho.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_doguinho",
+    "path": "sprites/spr_doguinho/spr_doguinho.yy",
+  },
   "visible": true,
 }

@@ -4,7 +4,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 pode_atender=true;
-
+v=0;
+missao_correspondente = -1;
 //COLOCAR NA ROOM ASSIM:
 /* 
 

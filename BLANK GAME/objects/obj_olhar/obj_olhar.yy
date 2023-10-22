@@ -33,5 +33,5 @@
     "path": "sprites/spr_olhar/spr_olhar.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

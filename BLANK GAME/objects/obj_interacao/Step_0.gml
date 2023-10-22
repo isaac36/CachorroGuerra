@@ -6,15 +6,19 @@
 /// @description Inserir descrição aqui
 // Você pode escrever s eu código neste editor
 
+v = v++;
+
+if(v>100){v=-100}
+
 if(place_meeting(x,y,obj_player))and(cont_dialogo==0){
 }
-
+ 
 if(cont_dialogo==1)and(pode_atender){pode_atender=false;};
  
 if(cont_dialogo<comeco){cont_dialogo=comeco;}
 //if(cont_dialogo>fim){global.pause=false;instance_destroy();obj_gato.velocidadeX=0;velocidadeY=0;obj_gato.estado=parado;exit}
 
-if(place_meeting(x,y,obj_player)){comecou=true};
+if(place_meeting(x,y,obj_player))and(missao_correspondente==global.missao){comecou=true};
 
 if(comecou==true){
 	

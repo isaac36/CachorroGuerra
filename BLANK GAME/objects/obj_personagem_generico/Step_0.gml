@@ -1,5 +1,4 @@
   
-if(keyboard_check_pressed(vk_space)and(global.podedarpause)){global.pause=!global.pause};
 
 if(global.pause==true){
 	

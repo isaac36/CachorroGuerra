@@ -1,4 +1,4 @@
- /// @description Inserir descrição aqui
+  /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 event_inherited();
 
@@ -75,4 +75,4 @@ alarm[1] = 1;
 
 caminho=-1;
  
-    
+cont_atirar = 0;

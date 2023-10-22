@@ -5,14 +5,14 @@ function personagem_andando(){
 	if(BOTAO_ESQUERDA){
 		
 	 velocidadeX-=1.2;
-	 lado="esquerda";
+	 lado="esquerda";sprite_index = spr_doguinho_andando; image_xscale = -1;
 		
 		};
 		
 	if(BOTAO_DIREITA){
 		
 	velocidadeX+=1.2;
-	lado="direita";
+	lado="direita";sprite_index = spr_doguinho_andando; image_xscale = 1;
 		
 		};
 		
@@ -20,6 +20,7 @@ function personagem_andando(){
 		
 	velocidadeY-=1.2;
 	lado="cima";
+	sprite_index = spr_doguinho_andando;
 		
 		};
 		
@@ -27,7 +28,14 @@ function personagem_andando(){
 		
 	velocidadeY+=1.2;
 	lado="baixo";
+	sprite_index = spr_doguinho_andando;
 		
 		};
+		
+	if((!BOTAO_BAIXO)and(!BOTAO_CIMA)and(!BOTAO_DIREITA)and(!BOTAO_ESQUERDA)){
+	
+	estado = personagem_parado;
+	
+	}
 
 }

@@ -1,17 +1,21 @@
 event_inherited();
 
+mask_index = spr_doguinho;
+
 global.pause=false; 
 global.podedarpause=true;
 
 item = 0;
+medicamento = false;
+agarrar = false;
 
 BOTAO_ESQUERDA_SETUP = ord("A");
 BOTAO_DIREITA_SETUP = ord("D");
 BOTAO_CIMA_SETUP = ord("W");
 BOTAO_BAIXO_SETUP = ord("S");
 
-BOTAO_PULO_SETUP = -1;
-BOTAO_DASH_SETUP = -1;
+BOTAO_PULO_SETUP = ord("U");
+BOTAO_DASH_SETUP = ord("I");
 BOTAO_ATAQUE_SETUP = vk_space ;
 BOTAO_ATAQUE2_SETUP = -1; 
 BOTAO_ESPECIAL_SETUP = -1; 
