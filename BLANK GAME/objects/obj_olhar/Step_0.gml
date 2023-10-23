@@ -63,7 +63,7 @@ if (instance_exists(target_object)) {
 
 cont++;
 
-if(distance_to_object(obj_player)<2){
+if(distance_to_object(obj_player)<2)and(instance_exists(dono)){
 	
 	if(dono!=-1)and(obj_player.distance_to_object(dono)<200){dono.IA_modo="perseguindo";}; dono.contViu  = 0; instance_destroy();
 	

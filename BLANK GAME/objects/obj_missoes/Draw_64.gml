@@ -17,4 +17,6 @@ if(global.missao==4)draw_text(960,100,"Missão: "+"Fale com seu dono na base cen
 if(global.missao==5)draw_text(960,100,"Missão: "+"Vá para a cabana ao leste e pegue os medicamentos");
 if(global.missao==6)draw_text(960,100,"Missão: "+"Você pegou os medicamentos, volte para a base central");
 if(global.missao==7)draw_text(960,100,"Missão: "+"Fale com seu dono na base central");
- 
+if(global.missao==8)draw_text(960,100,"Missão: "+"Fareje as minas do caminho norte");
+if(global.missao==8)draw_text(960,150,"Missão: "+"Use as minas para se livrar dos inimigos");
+if(global.missao==9)draw_text(960,100,"Missão: "+"Você conseguiu! Volte para seu dono.");

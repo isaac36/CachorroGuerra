@@ -242,3 +242,5 @@ IA_modo = "procurando";cont_atirar=0;
  
  
  }
+ 
+ if(place_meeting(x,y,obj_explosao)){instance_create_depth(x,y,depth,obj_inimigo_morto);instance_destroy();};

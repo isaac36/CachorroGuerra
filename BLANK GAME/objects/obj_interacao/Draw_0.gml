@@ -1,6 +1,24 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+ 
+ 
+frequencia_desenho = frequencia_desenho+1;
+if(frequencia_desenho>10){frequencia_desenho=0}
 
-if(missao_correspondente==global.missao)draw_sprite(seta,0,x,y+v);
+if(cor<tendencia){cor=cor+2}
+if(cor>tendencia){cor=cor-2}
 
+if(cor>255){cor=255}
+if(cor<0){cor=0}
+	
+	
+if(frequencia_balanco)==0{velocidade_balanco=0.5}
+if(frequencia_balanco)==10{velocidade_balanco=-0.5}
+
+frequencia_balanco = frequencia_balanco +velocidade_balanco;
+	
+ 
+if(missao_correspondente==global.missao){
+draw_sprite_ext(seta,floor(frequencia_desenho/5),x,y-40-(frequencia_balanco),2,2,0,make_color_rgb(255,cor,cor),0.7);
+}
  

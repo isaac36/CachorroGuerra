@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "personagens",
-    "path": "folders/Objetos/personagens.yy",
+    "name": "BLANK GAME",
+    "path": "BLANK GAME.yyp",
   },
   "parentObjectId": null,
   "persistent": false,

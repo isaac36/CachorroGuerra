@@ -6,10 +6,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever s eu código neste editor
 
-v = v++;
-
-if(v>100){v=-100}
-
 if(place_meeting(x,y,obj_player))and(cont_dialogo==0){
 }
  

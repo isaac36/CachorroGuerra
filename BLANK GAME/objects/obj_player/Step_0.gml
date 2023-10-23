@@ -121,7 +121,7 @@ x += sign(velocidadeY);
 }
 velocidadeY = 0;
 velocidadeX = 0;
-
+ 
 }
 
 
@@ -130,3 +130,6 @@ velocidadeX = 0;
 x = velocidadeX + x;
 y = velocidadeY + y; 
   
+
+
+if(morreu==false)and(place_meeting(x,y,obj_cachorro_inimigo))or(place_meeting(x,y,obj_explosao)){morreu=true;alarm[10]=5};

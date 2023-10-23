@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_dono",
-    "path": "sprites/spr_dono/spr_dono.yy",
+    "name": "soldado_ryan_respirando_",
+    "path": "sprites/soldado_ryan_respirando_/soldado_ryan_respirando_.yy",
   },
   "spriteMaskId": null,
   "visible": true,

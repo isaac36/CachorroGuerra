@@ -1,4 +1,4 @@
-/// @description Inserir descrição aqui
+ /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 depth = -y;
 image_angle = 0;

@@ -5,6 +5,7 @@ mask_index = spr_doguinho;
 global.pause=false; 
 global.podedarpause=true;
 
+morreu = false;
 item = 0;
 medicamento = false;
 agarrar = false;

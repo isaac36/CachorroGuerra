@@ -2,6 +2,20 @@
 // Você pode escrever seu código neste editor
 
 /// @description Inserir descrição aqui
+
+
+
+
+
+frequencia_desenho=0;
+frequencia_balanco=0;
+velocidade_balanco=1;
+cor = 255;
+tendencia = 255;
+
+
+
+
 // Você pode escrever seu código neste editor
 pode_atender=true;
 v=0;
