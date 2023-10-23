@@ -17,7 +17,7 @@ face[2]=spr_invisivel;
 lado[2]=-1;
 animacao[2] = false;//false se nao tem
 
-fala[3]="Entre essa base central até lá está cheio de MINAS TERRESTRES";
+fala[3]="No caminho daqui até lá está cheio de MINAS TERRESTRES";
 face[3]=spr_invisivel;
 lado[3]=-1;
 animacao[3] = false;//false se nao tem

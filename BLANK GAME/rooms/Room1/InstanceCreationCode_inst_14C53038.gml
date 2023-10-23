@@ -7,7 +7,7 @@ face[0]=spr_invisivel;
 lado[0]=-1;
 animacao[0] = false;//false se nao tem
 
-fala[1]="Vá para o Oeste falar com o sargento";
+fala[1]="Vá para o Oeste ajudar o sargento";
 face[1]=spr_invisivel;
 lado[1]=-1;
 animacao[1] = false;//false se nao tem

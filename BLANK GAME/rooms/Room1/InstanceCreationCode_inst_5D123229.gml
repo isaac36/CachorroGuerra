@@ -1,5 +1,5 @@
 comeco = 0;
-fim = 1 ;
+fim = 2 ;
 missao_correspondente = 9;
 
 fala[0]="Você conseguiu!"
@@ -12,4 +12,8 @@ face[1]=spr_invisivel;
 lado[1]=-1;
 animacao[1] = false;//false se nao tem
 
+fala[2]="Quem é o cachorrinho mais fofo?!";
+face[2]=spr_invisivel;
+lado[2]=-1;
+animacao[2] = Script8;//false se nao tem
 

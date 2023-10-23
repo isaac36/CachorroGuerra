@@ -126,7 +126,12 @@ velocidadeX = 0;
 
 
 
- if(instance_exists(obj_farejar)){sprite_index = spr_doguinho_cheirando; velocidadeX=0;velocidadeY=0};
+ if(instance_exists(obj_farejar)){
+	 
+	 if(!audio_is_playing(som_farejar)){audio_play_sound(som_farejar,0,0)};
+	 
+	 
+	 sprite_index = spr_doguinho_cheirando; velocidadeX=0;velocidadeY=0};
 x = velocidadeX + x;
 y = velocidadeY + y; 
   

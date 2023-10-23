@@ -35,5 +35,5 @@
     "path": "sprites/spr_quadrado_branco/spr_quadrado_branco.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

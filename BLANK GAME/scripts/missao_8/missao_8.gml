@@ -4,5 +4,10 @@ function missao_8(){
 	
 	global.missao = 8;
 	pode_passar = true;
+	
+	if(cont_cena==0){
+    audio_stop_all(); global.musica = audio_play_sound(musica_luta,0,1);}
+	
+	cont_cena++;
 
 }
