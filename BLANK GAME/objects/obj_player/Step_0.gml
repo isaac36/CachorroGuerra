@@ -117,7 +117,8 @@ if(place_meeting(x+velocidadeX,y+velocidadeY,obj_wall)){
 
 while(!place_meeting(x+sign(velocidadeX),y+velocidadeY,obj_wall)) {
 
-x += sign(velocidadeY);
+x += sign(velocidadeX);
+y += sign(velocidadeY);
 }
 velocidadeY = 0;
 velocidadeX = 0;
@@ -126,7 +127,7 @@ velocidadeX = 0;
 
 
 
- if(instance_exists(obj_farejar)){
+if(instance_exists(obj_farejar)){
 	 
 	 if(!audio_is_playing(som_farejar)){audio_play_sound(som_farejar,0,0)};
 	 

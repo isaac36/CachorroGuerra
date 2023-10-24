@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function personagem_parado(){
 	
-	sprite_index=spr_doguinho;
+	sprite_index=sprite_parado;
 	
 	if(BOTAO_ESQUERDA)or(BOTAO_DIREITA)or(BOTAO_CIMA)or(BOTAO_BAIXO){
 	

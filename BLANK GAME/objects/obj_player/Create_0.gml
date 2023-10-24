@@ -1,6 +1,8 @@
 event_inherited();
 
 mask_index = spr_doguinho;
+sprite_parado = spr_doguinho;
+sprite_andando = spr_doguinho_andando;
 
 global.pause=false; 
 global.podedarpause=true;

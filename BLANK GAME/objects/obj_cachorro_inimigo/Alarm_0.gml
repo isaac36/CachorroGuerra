@@ -9,8 +9,7 @@
 
 
 
-path_delete(path);
-
+if(path_exists(path))path_delete(path);
 
 path = path_add();
 
@@ -25,17 +24,18 @@ target_y = objetivo.y;
 
 //usando a grid  do cenario
 mp_grid_path(obj_grid.grid,path,x,y,target_x,target_y,1);
+ 
 
 
+path_start(path,4,path_action_stop,true);  
 
-path_start(path,4,path_action_stop,true); 
 
-
+ 
 
 
   
 
 //loop
 
-alarm_set(0,60);
+alarm_set(0,30);
   

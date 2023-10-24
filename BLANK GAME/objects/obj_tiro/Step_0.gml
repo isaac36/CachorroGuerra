@@ -13,7 +13,7 @@ if(global.pause==true){
 	SaveAlarm3 = alarm[3];
 	SaveAlarm4 = alarm[4];
 	SaveAlarm5 = alarm[5];
-	SaveAlarm6 = alarm[6];
+	SaveAlarm6  = alarm[6];
 	SaveAlarm7 = alarm[7];
 	SaveAlarm8 = alarm[8];
 	SaveAlarm9 = alarm[9];
@@ -65,7 +65,7 @@ cont++;
 
 if(distance_to_object(obj_player)<2){
 	
-	if(dono!=-1)and(obj_player.distance_to_object(dono)<200){dono.IA_modo="perseguindo";}; dono.contViu  = 0; instance_destroy();
+	if(dono!=-1)and(obj_player.distance_to_object(dono)<200){dono.IA_modo="perseguindo";dono.alarm[0]=0;}; dono.contViu  = 0; instance_destroy();
 	
 	}
 
