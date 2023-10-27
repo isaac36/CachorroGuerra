@@ -1,4 +1,4 @@
-comeco = 0;
+ comeco = 0;
 fim = 2;
 missao_correspondente = 2;
 
