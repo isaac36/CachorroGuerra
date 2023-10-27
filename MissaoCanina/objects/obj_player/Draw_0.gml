@@ -3,4 +3,5 @@
 
 draw_self();
 
-//draw_text(x,y-100,"global.missao"+string(global.missao))
+draw_text(x,y-100,"agarrar"+string(agarrar));
+draw_text(x,y-120,"pegou1"+string(pegou1));

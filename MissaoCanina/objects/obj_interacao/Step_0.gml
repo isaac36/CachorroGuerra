@@ -44,4 +44,4 @@ script_execute(animacao[cont_dialogo]);
 
  
  
-if(cont_dialogo>fim){global.pause=false;obj_setup.alarm[0]=5;obj_player.velocidadeX=0;velocidadeY=0;obj_player.estado=personagem_parado;instance_destroy();exit}
+if(cont_dialogo>fim){global.pause=false;obj_pause.alarm[0]=5;obj_player.velocidadeX=0;velocidadeY=0;obj_player.estado=personagem_parado;instance_destroy();exit}

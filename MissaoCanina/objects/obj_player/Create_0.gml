@@ -1,4 +1,5 @@
-event_inherited();
+
+ event_inherited();
 
 mask_index = spr_doguinho;
 sprite_parado = spr_doguinho;
@@ -11,6 +12,7 @@ morreu = false;
 item = 0;
 medicamento = false;
 agarrar = false;
+pegou1 = false;
 
 BOTAO_ESQUERDA_SETUP = ord("A");
 BOTAO_DIREITA_SETUP = ord("D");
@@ -34,3 +36,22 @@ velocidadeY = 0;
 limiteVelocidade = 4.4; 
 lado = "direita";
 atrito = 0.3; 
+
+
+
+
+
+	Save_sprite_index = sprite_index;
+	Save_image_index = image_index;
+	SaveAlarm0 = alarm[0];
+	SaveAlarm1 = alarm[1]; 
+	SaveAlarm2 = alarm[2];
+	SaveAlarm3 = alarm[3]; 
+	SaveAlarm4 = alarm[4];
+	SaveAlarm5 = alarm[5];
+	SaveAlarm6 = alarm[6];
+	SaveAlarm7 = alarm[7];
+	SaveAlarm8 = alarm[8];
+	SaveAlarm9 = alarm[9];
+	SaveAlarm10 = alarm[10];
+	SaveAlarm11 = alarm[11];

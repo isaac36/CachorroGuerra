@@ -28,7 +28,7 @@ if(global.pause==true){
 	
 	path_end();
 	
-	alarm[0]=1; 
+	alarm[0]=1;  
 
 	sprite_index = Save_sprite_index;
 	image_index = Save_image_index;
@@ -48,8 +48,9 @@ if(global.pause==true){
 
 }
 
-
-
+//
+if(global.pause==false){salvei=false;};
+//
 
 if(keyboard_check(BOTAO_ESQUERDA_SETUP)){BOTAO_ESQUERDA = true;}else{BOTAO_ESQUERDA = false;}
 if(keyboard_check(BOTAO_DIREITA_SETUP)){BOTAO_DIREITA = true;}else {BOTAO_DIREITA = false;}

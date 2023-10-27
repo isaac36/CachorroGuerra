@@ -42,7 +42,7 @@ if(global.pause==true){
 	exit;
 
 
-}
+}else{salvei=false;}
 
 
 
@@ -69,6 +69,9 @@ agarrar = false;
 if(medicamento==true){ global.missao=6};
 if(medicamento==true)and(place_meeting(x,y,obj_salvei_pessoa)){audio_play_sound(som_missao,0,0);global.missao=7;medicamento=false};
 if keyboard_check(BOTAO_DASH_SETUP) {agarrar = true};
+ 
+if(agarrar==false){pegou1=false};
+ 
  
 script_execute(estado);
 

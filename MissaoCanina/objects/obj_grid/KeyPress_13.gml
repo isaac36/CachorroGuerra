@@ -1,4 +1,6 @@
- /// @description Inserir descrição aqui
+  /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
-if(global.mostrar){global.mostrar=false}else{global.mostrar=true;} 
+
+//desabilitado
+//if(global.mostrar){global.mostrar=false}else{global.mostrar=true;} 
