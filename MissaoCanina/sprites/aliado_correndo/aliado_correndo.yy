@@ -28,10 +28,10 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d3082d01-2c3f-4f50-b7b9-05fb257dd53c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_aliados",
+    "path": "folders/Sprites/spr_aliados.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -69,7 +69,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 16,
+    "xorigin": 18,
     "yorigin": 32,
   },
   "swatchColours": null,

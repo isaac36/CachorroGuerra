@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "personagens",
-    "path": "folders/Objetos/personagens.yy",
+    "name": "Colisoes e interacoes",
+    "path": "folders/Objetos/Colisoes e interacoes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -32,8 +32,8 @@
   "nineSlice": null,
   "origin": 7,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "spr_aliados",
+    "path": "folders/Sprites/spr_aliados.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

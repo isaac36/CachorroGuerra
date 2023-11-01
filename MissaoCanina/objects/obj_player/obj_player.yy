@@ -12,8 +12,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "personagens",
-    "path": "folders/Objetos/personagens.yy",
+    "name": "Player",
+    "path": "folders/Objetos/Player.yy",
   },
   "parentObjectId": {
     "name": "obj_personagem_generico",

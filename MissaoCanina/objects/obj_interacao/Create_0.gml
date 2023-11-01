@@ -4,7 +4,7 @@
 /// @description Inserir descrição aqui
 
 
-
+global.esta_dialogando = false;
 
 
 frequencia_desenho=0;

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "BLANK GAME",
-    "path": "BLANK GAME.yyp",
+    "name": "spr_placeholders",
+    "path": "folders/Sprites/spr_placeholders.yy",
   },
   "parentObjectId": null,
   "persistent": false,

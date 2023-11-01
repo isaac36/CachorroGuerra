@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Inimigos",
+    "path": "folders/Objetos/NPCs/Inimigos.yy",
   },
   "parentObjectId": {
     "name": "obj_arrastavel",

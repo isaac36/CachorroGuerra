@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "BLANK GAME",
-    "path": "BLANK GAME.yyp",
+    "name": "spr_placeholders",
+    "path": "folders/Sprites/spr_placeholders.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

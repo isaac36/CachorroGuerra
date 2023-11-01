@@ -9,7 +9,7 @@
 if(place_meeting(x,y,obj_player))and(cont_dialogo==0){
 }
  
-if(cont_dialogo==1)and(pode_atender){pode_atender=false;};
+if(cont_dialogo==1)and(pode_atender){pode_atender=false;}
  
 if(cont_dialogo<comeco){cont_dialogo=comeco;}
 //if(cont_dialogo>fim){global.pause=false;instance_destroy();obj_gato.velocidadeX=0;velocidadeY=0;obj_gato.estado=parado;exit}
@@ -23,7 +23,7 @@ if(comecou==true){
 
 global.pause=true;
 global.podedarpause=false;
-
+global.esta_dialogando=true; 
 
 
 
@@ -44,4 +44,4 @@ script_execute(animacao[cont_dialogo]);
 
  
  
-if(cont_dialogo>fim){global.pause=false;obj_pause.alarm[0]=5;obj_player.velocidadeX=0;velocidadeY=0;obj_player.estado=personagem_parado;instance_destroy();exit}
+if(cont_dialogo>fim){global.pause=false;obj_pause.alarm[0]=5;obj_player.velocidadeX=0;velocidadeY=0;obj_player.estado=personagem_parado;global.esta_dialogando = false;instance_destroy();exit}

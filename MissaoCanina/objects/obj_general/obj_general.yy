@@ -6,12 +6,12 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objetos",
-    "path": "folders/Objetos.yy",
+    "name": "Aliados",
+    "path": "folders/Objetos/NPCs/Aliados.yy",
   },
   "parentObjectId": {
-    "name": "obj_coisa_animada",
-    "path": "objects/obj_coisa_animada/obj_coisa_animada.yy",
+    "name": "obj_animacao_e_profundidade",
+    "path": "objects/obj_animacao_e_profundidade/obj_animacao_e_profundidade.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

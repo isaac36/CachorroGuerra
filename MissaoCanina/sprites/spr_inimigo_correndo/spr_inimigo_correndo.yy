@@ -28,10 +28,10 @@
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f967d4d7-8303-4e6e-8fc3-aa87ee6a267c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
-  "origin": 7,
+  "origin": 9,
   "parent": {
-    "name": "inimigo",
-    "path": "folders/Sprites/inimigo.yy",
+    "name": "spr_inimigo",
+    "path": "folders/Sprites/spr_inimigo.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -69,7 +69,7 @@
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 16,
+    "xorigin": 18,
     "yorigin": 32,
   },
   "swatchColours": null,

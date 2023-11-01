@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "colisoes",
-    "path": "folders/Objetos/colisoes.yy",
+    "name": "Colisoes e interacoes",
+    "path": "folders/Objetos/Colisoes e interacoes.yy",
   },
   "parentObjectId": null,
   "persistent": false,

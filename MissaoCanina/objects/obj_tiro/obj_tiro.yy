@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "personagens",
-    "path": "folders/Objetos/personagens.yy",
+    "name": "Inimigos",
+    "path": "folders/Objetos/NPCs/Inimigos.yy",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -57,8 +57,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "BLANK GAME",
-    "path": "BLANK GAME.yyp",
+    "name": "spr_cenário",
+    "path": "folders/Sprites/spr_cenário.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
