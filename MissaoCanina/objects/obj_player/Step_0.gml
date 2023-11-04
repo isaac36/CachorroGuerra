@@ -1,4 +1,4 @@
-  
+
 
 if(global.pause==true){
 	
@@ -52,25 +52,27 @@ depth = -y;
 
 
 
-if(keyboard_check(BOTAO_ESQUERDA_SETUP)){BOTAO_ESQUERDA = true;}else{BOTAO_ESQUERDA = false;}
-if(keyboard_check(BOTAO_DIREITA_SETUP)){BOTAO_DIREITA = true;}else {BOTAO_DIREITA = false;}
-if(keyboard_check(BOTAO_CIMA_SETUP)){BOTAO_CIMA = true;}else {BOTAO_CIMA = false;}
-if(keyboard_check(BOTAO_BAIXO_SETUP)){BOTAO_BAIXO = true;}else {BOTAO_BAIXO = false;}
-if(keyboard_check_pressed(BOTAO_PULO_SETUP)){BOTAO_PULO = true;}else {BOTAO_PULO = false;}
-if(keyboard_check_pressed(BOTAO_DASH_SETUP)){BOTAO_DASH = true;}else {BOTAO_DASH = false;}
-if(keyboard_check_pressed(BOTAO_ATAQUE_SETUP)){BOTAO_ATAQUE = true;}else {BOTAO_ATAQUE = false;}
-if(keyboard_check(BOTAO_ATAQUE2_SETUP)){BOTAO_ATAQUE2 = true;}else {BOTAO_ATAQUE2 = false;}
-if(keyboard_check(BOTAO_ESPECIAL_SETUP)){BOTAO_ESPECIAL = true;}else {BOTAO_ESPECIAL = false;}
+if(keyboard_check(BOTAO_ESQUERDA_SETUP))and(!in_sequence){BOTAO_ESQUERDA = true;}else{BOTAO_ESQUERDA = false;}
+if(keyboard_check(BOTAO_DIREITA_SETUP))and(!in_sequence){BOTAO_DIREITA = true;}else {BOTAO_DIREITA = false;}
+if(keyboard_check(BOTAO_CIMA_SETUP))and(!in_sequence){BOTAO_CIMA = true;}else {BOTAO_CIMA = false;}
+if(keyboard_check(BOTAO_BAIXO_SETUP))and(!in_sequence){BOTAO_BAIXO = true;}else {BOTAO_BAIXO = false;}
+if(keyboard_check_pressed(BOTAO_PULO_SETUP))and(!in_sequence){BOTAO_PULO = true;}else {BOTAO_PULO = false;}
+if(keyboard_check_pressed(BOTAO_DASH_SETUP))and(!in_sequence){BOTAO_DASH = true;}else {BOTAO_DASH = false;}
+if(keyboard_check_pressed(BOTAO_ATAQUE_SETUP))and(!in_sequence){BOTAO_ATAQUE = true;}else {BOTAO_ATAQUE = false;}
+if(keyboard_check(BOTAO_ATAQUE2_SETUP))and(!in_sequence){BOTAO_ATAQUE2 = true;}else {BOTAO_ATAQUE2 = false;}
+if(keyboard_check(BOTAO_ESPECIAL_SETUP))and(!in_sequence){BOTAO_ESPECIAL = true;}else {BOTAO_ESPECIAL = false;}
 
 
 if(BOTAO_PULO){instance_create_depth(x,y,depth,obj_farejar)};
  
 agarrar = false;
-if(medicamento==true){ global.missao=6};
+if(medicamento==true){global.missao=6};
 if(medicamento==true)and(place_meeting(x,y,obj_salvei_pessoa)){audio_play_sound(som_missao,0,0);global.missao=7;medicamento=false};
-if keyboard_check(BOTAO_DASH_SETUP) {agarrar = true};
+if keyboard_check(BOTAO_DASH_SETUP){agarrar = true};
  
 if(agarrar==false){pegou1=false};
+
+if(agarrar==true)and(pegou1){limiteVelocidade = 2.2}else{limiteVelocidade=4.4};
  
  
 script_execute(estado);

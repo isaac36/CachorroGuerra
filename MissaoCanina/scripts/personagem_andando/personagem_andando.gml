@@ -1,4 +1,4 @@
-// Os recursos de script mudaram para a v2.3.0; veja
+ // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function personagem_andando(){
 		
@@ -37,5 +37,7 @@ function personagem_andando(){
 	estado = personagem_parado;
 	
 	}
+	
+	if(BOTAO_ATAQUE){estado=estado_animacao1;cont=0};
 
 }

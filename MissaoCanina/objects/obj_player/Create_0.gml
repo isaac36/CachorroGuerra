@@ -28,8 +28,11 @@ BOTAO_ESPECIAL_SETUP = -1;
 estado_parado = personagem_parado;
 estado_andando = personagem_andando;
 estado_correndo = personagem_correndo;
+estado_animacao1 = personagem_mortal;
 
 estado = personagem_parado;
+
+cont = 0;
 
 velocidadeX = 0;
 velocidadeY = 0;

@@ -49,11 +49,12 @@ if(obj_player.pegou1 == id){
 if(obj_player.lado=="esquerda"){dir=-1;image_angle = -40;}
 if(obj_player.lado=="direita"){dir=1;image_angle = 40;}
 
-depth = obj_player.depth -1;
+depth = obj_player.depth -3;
 
 
 x = obj_player.x+dir*(10);
 y = obj_player.y;
+
 }
 
 

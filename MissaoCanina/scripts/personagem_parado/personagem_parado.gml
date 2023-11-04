@@ -10,4 +10,5 @@ function personagem_parado(){
 	
 	}
 
+	if(BOTAO_ATAQUE){estado=estado_animacao1;cont=0};
 }
