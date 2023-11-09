@@ -6,8 +6,10 @@ function missao_8(){
 	pode_passar = true;
 	
 	if(cont_cena==0){
-    audio_stop_all(); global.musica = audio_play_sound(musica_luta,0,1);}
-	
+    audio_stop_all();
+	instance_destroy(obj_musica);
+	instance_create_depth(x,y,depth,obj_musica);
+	}
 	cont_cena++;
 
 }

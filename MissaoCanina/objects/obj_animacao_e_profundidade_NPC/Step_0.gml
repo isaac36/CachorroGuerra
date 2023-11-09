@@ -34,7 +34,7 @@ if(global.pause==true){
 	alarm[5] = SaveAlarm5;
 	alarm[6] = SaveAlarm6;
 	alarm[7] = SaveAlarm7;
-	alarm[8] = SaveAlarm8;
+	alarm[8] = SaveAlarm8; 
 	alarm[9] = SaveAlarm9;
 	alarm[10] = SaveAlarm10;
 	alarm[11] = SaveAlarm11;
@@ -54,6 +54,20 @@ image_xscale = 1;
 
 }else{image_xscale=-1;}
 
-depth = -y;
+
+
+
+//profundidade
+
+
+if (instance_exists(obj_player)) and (obj_player.in_sequence) {
+
+depth = 0 - (y - obj_player.y);
+
+}else{
+
+depth=-y;
+
+}
 
 
