@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.7639,
   "parent": {
-    "name": "som_HUD",
-    "path": "folders/Sons/som_HUD.yy",
+    "name": "sons efeitos",
+    "path": "folders/Sons/sons efeitos.yy",
   },
   "preload": false,
   "sampleRate": 44100,

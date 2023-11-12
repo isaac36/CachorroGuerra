@@ -12,10 +12,7 @@
     "name": "Efeitos",
     "path": "folders/Objetos/Efeitos.yy",
   },
-  "parentObjectId": {
-    "name": "obj_animacao_e_profundidade",
-    "path": "objects/obj_animacao_e_profundidade/obj_animacao_e_profundidade.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

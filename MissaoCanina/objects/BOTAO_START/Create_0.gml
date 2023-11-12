@@ -1,6 +1,9 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
 
+global.cursorMenu = 0; 
 
- image_blend = c_yellow;
+meuCursor = 0;
+
+global.naopodemais = false;
 

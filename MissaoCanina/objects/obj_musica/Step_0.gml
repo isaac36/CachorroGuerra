@@ -1,7 +1,7 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-
 /*
+
 if(keyboard_check_pressed(vk_space)){
 
 audio_sound_set_track_position(musica,60);

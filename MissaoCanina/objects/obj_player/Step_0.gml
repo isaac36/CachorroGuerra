@@ -59,7 +59,7 @@ if(keyboard_check(BOTAO_BAIXO_SETUP))and(!in_sequence){BOTAO_BAIXO = true;}else 
 if(keyboard_check_pressed(BOTAO_PULO_SETUP))and(!in_sequence){BOTAO_PULO = true;}else {BOTAO_PULO = false;}
 if(keyboard_check_pressed(BOTAO_DASH_SETUP))and(!in_sequence){BOTAO_DASH = true;}else {BOTAO_DASH = false;}
 if(keyboard_check_pressed(BOTAO_ATAQUE_SETUP))and(!in_sequence){BOTAO_ATAQUE = true;}else {BOTAO_ATAQUE = false;}
-if(keyboard_check(BOTAO_ATAQUE2_SETUP))and(!in_sequence){BOTAO_ATAQUE2 = true;}else {BOTAO_ATAQUE2 = false;}
+if(keyboard_check_pressed(BOTAO_ATAQUE2_SETUP))and(!in_sequence){BOTAO_ATAQUE2 = true;}else {BOTAO_ATAQUE2 = false;}
 if(keyboard_check(BOTAO_ESPECIAL_SETUP))and(!in_sequence){BOTAO_ESPECIAL = true;}else {BOTAO_ESPECIAL = false;}
 
 

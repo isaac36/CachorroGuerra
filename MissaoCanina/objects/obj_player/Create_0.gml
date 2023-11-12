@@ -22,8 +22,8 @@ BOTAO_BAIXO_SETUP = ord("S");
 BOTAO_PULO_SETUP = ord("U");
 BOTAO_DASH_SETUP = ord("I");
 BOTAO_ATAQUE_SETUP = vk_space ;
-BOTAO_ATAQUE2_SETUP = -1; 
-BOTAO_ESPECIAL_SETUP = -1; 
+BOTAO_ATAQUE2_SETUP = ord("J"); 
+BOTAO_ESPECIAL_SETUP = ord("K"); 
 
 estado_parado = personagem_parado;
 estado_andando = personagem_andando;

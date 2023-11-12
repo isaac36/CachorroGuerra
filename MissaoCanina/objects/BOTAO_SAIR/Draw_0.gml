@@ -5,9 +5,12 @@
 // Você pode escrever seu código neste editor
 draw_self();
 
-image_alpha = 0.7;
+if(meuCursor!=global.cursorMenu){cor = make_color_rgb(90,90,90)}else{cor = c_white;}
 
-draw_set_color(c_black); 
+image_blend=cor;
+
+draw_set_color(c_white); 
 draw_set_font(fonte_dialogo);
 draw_set_halign(fa_middle);
-draw_text_transformed_color(x,y-25,"Sair",3,3,0,c_black,c_black,c_black,c_black,1);
+if(image_index<1){altura=0}else{altura=21}
+draw_text_transformed_color(x,y-70+altura,"Sair",2.5,2.5,0,cor,cor,cor,cor,1);

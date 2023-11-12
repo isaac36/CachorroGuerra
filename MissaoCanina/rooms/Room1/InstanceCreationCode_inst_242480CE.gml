@@ -2,12 +2,12 @@
 fim = 2;
 missao_correspondente = 2;
 
-fala[0]="Olá doguinho"
+fala[0]="Olá, Kaya."
 face[0]=spr_invisivel;
 lado[0]=-1;
 animacao[0] = false;//false se nao tem
 
-fala[1]="Tem alguém nesses escombros abaixo";
+fala[1]="Tem alguém nesses escombros abaixo.";
 face[1]=spr_invisivel;
 lado[1]=-1;
 animacao[1] = false;//false se nao tem

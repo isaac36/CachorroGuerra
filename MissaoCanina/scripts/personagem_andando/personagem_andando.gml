@@ -38,6 +38,7 @@ function personagem_andando(){
 	
 	}
 	
-	if(BOTAO_ATAQUE){estado=estado_animacao1;cont=0};
+	if(BOTAO_ESPECIAL){estado=estado_animacao1;cont=0};
+	if(BOTAO_ATAQUE2){estado=personagem_cavar;cont=0};
 
 }

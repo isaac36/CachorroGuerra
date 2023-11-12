@@ -26,5 +26,5 @@ case Menu:
 
 };
 
-musica = audio_play_sound(global.musica,0,1);
+musica = audio_play_sound(global.musica,1,1);
 audio_sound_loop_start(musica, global.loop);//loop tem que ser em Segundos 

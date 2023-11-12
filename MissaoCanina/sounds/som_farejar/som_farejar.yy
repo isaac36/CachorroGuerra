@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.0,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "sons efeitos",
+    "path": "folders/Sons/sons efeitos.yy",
   },
   "preload": false,
   "sampleRate": 44100,
